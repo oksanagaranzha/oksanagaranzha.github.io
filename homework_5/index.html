@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Головна сторінка</title>
+
+    <style>
+        body {
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: url(logo.png) 100%;
+			background-size: cover;
+			margin: 0;
+			
+        }
+
+        .images img {
+            width: 25vh;
+            height: 25vh;
+            padding: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.45);
+            margin: 5px;
+            background: blue;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+            justify-content: center;
+			margin: auto;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
+        h1 {
+            font-size: 16px;
+            text-transform: uppercase;
+            color: white;
+             margin: 0 0 0;
+        }
+		
+		.images a figure {
+			text-align: center;
+			margin: 0;
+		}
+		
+		.images a:hover img {
+			opacity: .7;
+		}
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="#blog">Блог</a></li>
+    <li><a href="#news">Вакансії</a></li>
+    <li><a href="#magazin">Магазини</a></li>
+    <li><a href="#doctavka">Доставка і оплата</a></li>
+    <li><a href="#garantia">Гарантія</a></li>
+    <li><a href="#credut">Кредит</a></li>
+    <li><a href="#contact">Контакти</a></li>
+</ul>
+<div class="images">
+    <a href="index4.html" target="_blank">
+		<figure>
+			<img src="1.png">
+			<figcaption>Побутова техніка</figcaption>
+		</figure>
+	</a>
+	
+    <a href="index2.html" target="_blank">
+		<figure>
+			<img src="2.png">
+			<figcaption>Гаджети</figcaption>
+		</figure>
+	</a>
+    <a href="index3.html" target="_blank">
+		<figure>
+			<img src="3.png">
+			<figcaption>Холодильники</figcaption>
+		</figure>
+	</a>
+    <a href="index4.html" target="_blank">
+		<figure>
+			<img src="4.png">
+			<figcaption>Фото, Відео, Аудіо</figcaption>
+		</figure>
+	</a>
+
+</div>
+</body>
+</html>
