@@ -1,0 +1,107 @@
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+      html {
+          font-size: 15px;
+          background-color: #a9a9a9;
+      }
+      body {
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-size: cover;
+        margin: 0;
+      }
+      h1, h2, h3 {
+          font-family: 'Cinzel Decorative', cursive;
+          color: #2a2a2a;
+      }
+      h1 {
+          font-size: 4rem;
+          text-align: center;
+          text-shadow: 2px 2px 10px black;
+      }
+      h2 {
+          text-align: center;
+          color: black;
+      }
+
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100px;
+      justify-content: center;
+      margin: auto;
+        float:left;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: green;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 26px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: limegreen;
+    }
+    p, li {
+      font-size: 1.6rem;
+      line-height: 1.5;
+    }
+	
+	.logo * {
+		display: inline-block;
+	}
+	
+	.logo {
+          background-color: darkgreen;
+          height: 50%;
+          border: 15px solid darkgreen;
+		  width: 100%;
+		  text-align: center;
+		      box-sizing: border-box;
+	}
+	
+	.logo img {
+		    float: right;
+        margin-right: 30px;
+	}
+	
+	.nav {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+	
+	header {
+	width: 100%
+	}
+
+
+.col-main {
+    width: 65%;
+    background: limegreen;
+    float: left;
+    padding: 20px 2.5%;
+    }
+.col-sidebar {
+    width: 25%;
+    background: limegreen;
+    padding: 20px 2.5%;
+}
